@@ -1,0 +1,14 @@
+{
+  "name": "sharkjetters",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.14.1"
+  },
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "patreon": "^0.4.1",
+    "url": "^0.11.0"
+  }
+}

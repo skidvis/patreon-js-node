@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>SharkJets Awesome Patrons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/public/main.css" type="text/css" />
+</head>
+
+<body>
+    <h1>Thanks to you!</h1>
+    <div class="container">
+        <% members.forEach(function(member) { %>
+        <div class="col">
+            <h1><%= member.full_name %></h1>
+        </div>
+        <% }); %>
+    </div>
+
+    <script type="text/javascript">
+        var user = <%- JSON.stringify(pledges) %>;   
+    </script>
+</body>
+
+</html>

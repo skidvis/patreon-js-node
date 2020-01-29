@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title><%= redirect %></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+
+<body style="text-align: center;">
+    <h1>Let's make some magic!</h1>
+    <hr />
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col">
+                <h4>Make sure your <a target="_new" href="https://www.patreon.com/portal/registration/register-clients">Patreon&nbsp;OAuth</a> redirect url is:</h4>
+                <span><%= redirect %></span>
+            </div>
+            <div class="col">
+                <a href="<%= loginUrl %>" class="btn btn-primary">Log in to Patreon</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
